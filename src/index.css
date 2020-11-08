@@ -1,0 +1,214 @@
+#link {
+    color: white
+}
+#background {
+    background-image: url(./stars6.jpg);
+    padding-bottom: 2%
+}
+.section {
+    /* border: #eca1a6 solid 8px !important; */
+    margin: 1vmin 3vmin 1vmin 3vmin;
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.116) !important;
+    text-shadow: 0 1px 2px #CD607E, 0 1px 1px rgba(205, 96, 127, 0.623);
+    box-shadow:  0 10px 20px #CD607E, 0 6px 6px rgba(205, 96, 127, 0.623);
+    color: white;
+ }
+.mynav {
+    height: 15vmin;
+    background-image: url(./stars6.jpg);
+    border: #CD607E solid 15px !important;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 1px 2px #CD607E, 0 1px 1px rgba(205, 96, 127, 0.623);
+
+}
+.homePageBox {
+    margin: 1%;
+    padding: 3%;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 4px 2px #CD607E, 0 1px 1px rgba(205, 96, 127, 0.623);
+    box-shadow:  0 10px 20px #CD607E, 0 6px 6px rgba(205, 96, 127, 0.623);
+    background-color: rgba(255, 255, 255, 0.116) !important
+}
+.label {
+    margin-bottom: 0px !important;
+}
+.homePageButton {
+    margin-top: 2%;
+    background-color: #2E4A62 !important;
+    box-shadow:  0 10px 20px #CD607E, 0 6px 6px rgba(205, 96, 127, 0.623);
+}
+.footerText {
+    margin-bottom: 0px !important;
+}
+.notSection {
+    margin: 2px 3vmin 2px 3vmin;
+    padding: 1%;
+    background-color: rgba(46, 74, 98, 0) !important;
+    border: none !important;
+    color: white;
+    
+}
+.subTitles {
+    color: rgb(255, 255, 255) !important;
+    font-size: 30px !important;
+    /* background-color: rgba(255, 255, 255, 0.829) !important */
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "left right extra"
+}
+.left {
+    grid-area: left;
+    padding: 1%;
+    margin:1vmin 1vmin 1vmin 8vmin;
+    /* background-color: aqua !important; */
+    
+}
+.right {
+    grid-area: right;
+    padding: 1%;
+    margin:1vmin 8vmin 1vmin 1vmin;
+    
+}
+.extra {
+    grid-area: extra
+}
+.postText {
+    width: 100%;
+    height: 30vmin;
+}
+.comment {
+    width: 80%;
+}
+#comTitle {
+    width: 100%;
+}
+
+#greeting {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 2px #CD607E, 0 2px 2px rgba(205, 96, 127, 0.623);
+}
+
+.post, .newPost {
+    padding: 1%;
+    margin:2vmin 6vmin 2vmin 6vmin;
+    background-color: rgba(255, 255, 255, 0.196) !important;
+    /* border: #ad5d5d solid 8px !important; */
+    box-shadow:  0 10px 20px #CD607E, 0 6px 6px rgba(205, 96, 127, 0.623);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 2px #CD607E, 0 2px 2px rgba(205, 96, 127, 0.623);
+}
+.line {
+    border: #CD607E solid 1px
+}
+.highlight {
+    text-shadow: 0 4px 2px #CD607E, 0 1px 1px rgba(205, 96, 127, 0.623);
+    font-size: 50px !important;
+}
+#area {
+    margin: 1%;
+}
+#editPassword {
+    width: 80%;
+}
+.deleteB {
+    margin-top: 2%;
+    background-color: red !important;
+}
+.options {
+    color: rgb(255, 255, 255) !important;
+    
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.linknav {
+    color: rgb(253, 253, 253) !important;
+  
+}
+.footer {
+    margin-top: 3%;
+    color: rgb(255, 255, 255)
+}
+.sectionTitle {
+    font-size: 40px !important;
+}
+@media (max-width: 770px ) {
+    .mynav {
+        height: 20% !important;
+    }
+    .loremText {
+        line-height: 20px;
+    }
+
+}
+@media (max-width: 500px) {
+    .mynav {
+        height: 5% !important;
+    }
+    #navTitle {
+        font-size: 40px !important
+    }
+    .loremText {
+        line-height: 20px !important;
+        font-size: 15px !important;
+    }
+    .sectionTitle {
+        font-size: 30px !important;
+    }
+    .homeInput {
+        width: 90% !important;
+    }
+    .footer {
+        font-size: 15px !important;
+    }
+    .highlight {
+        font-size: 30px !important;
+    }
+    .subTitles {
+        font-size: 20px !important;
+    }
+.notSection {
+    margin: 2px 0vmin 2px 0vmin !important
+}
+}
+@media (max-width: 1030px ) {
+.mynav {
+    height: 20vmin;
+    /* background-color: white !important;
+    border: #CD607E double 8px !important;
+    color: white !important; */
+}
+#navTitle {
+    font-size: 70px
+}
+.loremText {
+    line-height: 30px;
+    font-size: 30px
+}
+.subTitles {
+    font-size: 40px;
+}
+.footer {
+    font-size: 25px;
+}
+.sectionTitle {
+    font-size: 40px;
+}
+.highlight {
+    font-size: 50px
+}
+
+@media (max-width: 350px) {
+    .sectionTitle {
+        font-size: 20px !important;
+    }
+    #navTitle {
+        font-size: 30px !important;
+    }
+}
+}
